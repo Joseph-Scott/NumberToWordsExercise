@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd306c8f-1126-4c50-aaf6-13ae6b122c4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumberToWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberToWords.java" afterDir="false" />
     </list>
@@ -17,16 +16,15 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NumberToWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+            <state relative-caret-position="167">
+              <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -55,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/NumberToWords.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/NumberToWords.java" />
       </list>
     </option>
   </component>
@@ -144,7 +142,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
@@ -168,15 +166,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumberToWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        <state relative-caret-position="167">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
         </state>
       </provider>
     </entry>
