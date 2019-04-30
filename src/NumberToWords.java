@@ -73,16 +73,20 @@ public class NumberToWords {
 
     public static void numberToWords(int number) {
 
+        int reverseNumber = reverse(number);
+        int numberCount = getDigitCount(number);
+        int reverseCount = getDigitCount(reverseNumber);
 
-        if (number < 0) {
+
+        if (reverseNumber < 0) {
             System.out.println("Invalid Value");
-        } else if (number == 0) {
+        } else if (reverseNumber == 0) {
             System.out.println("Zero");
         }
 
-        while (number > 0) {
+        while (reverseNumber > 0) {
 
-            int lastDigit = number % 10;
+            int lastDigit = reverseNumber % 10;
 
             if (lastDigit == 0) {
                 System.out.println("Zero");
@@ -106,11 +110,15 @@ public class NumberToWords {
                 System.out.println("Nine");
             }
 
-            number /= 10;
+            reverseNumber /= 10;
 
         }
 
-        int reverseNumber = reverse(number);
+        if(numberCount > reverseCount) {
+            for (int i = numberCount - reverseCount; i > 0; i--) {
+                System.out.println("Zero");
+            }
+        }
 
     }
 
